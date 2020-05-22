@@ -19,7 +19,7 @@ The disjoint set in an abstract data type which means that while the above 3 ope
 
 Disjoint sets can be useful for various algorithms. For example it can be used to find the connected components within a graph. Here is a graph with 3 different connected components.
 
-![image](pic1.png)
+![](pic1.png)
 
 to determine which vertices(the circles) are connected, we start by forming a disjoint set for every vertex:
 
@@ -72,7 +72,7 @@ Suppose you had the following disjoint set: { {0,2,5},{1},{3,4}}
 
 Our representation would create a structure similar to the following: **Note this diagram is just a very rough guide. You are allowed to change the exact nature of the list. The list can be singly linked or circular for example. You are also allowed to add extra information to each node in order to improve performance. You are even allowed to make the linked list without the "List" header object (ie just nodes linked together, use nullptrs to indicate front/back). You are allowed to add other members to the disjointSet class to help support your processing also. This diagram is only a very rough guide. **
 
-![image](./pic2.png)
+![](pic2.png)
 
 ### Member functions
 - bool makeSet(int object):
@@ -101,15 +101,13 @@ Our representation would create a structure similar to the following: **Note thi
 
 Aside from the above functions, you need to also implement the following:
 
+```
 copy constructor 
-
 move constructor
-
 assignment operator
-
 move assignment operator
-
 destructor
+```
 
 ### Efficiency
 For this particular ADT, there are a few things you can do to make the data structure more efficient. It is up to you to do some research on this. Part of your mark is determined by the efficiency of your implementation. NOTE that you must use a linked list representation. A tree/forest representation will not be accepted.
@@ -124,11 +122,14 @@ function will generate a list of Wall objects that form the maze and pass those 
 function return the number of walls in the final maze
 We describe the maze as having row X col cells. For example if row was 3, and col was 4, then we would have a grid of cells as follows. We describe a wall by the two cell numbers the wall separates (smaller number first). If every single wall existed, there would be (row-1)(col) + (col-1)(row) walls.
 
+```
   0 |  1 |  2 |  3 
 -------------------  
   4 |  5 |  6 |  7
 --------------------
   8 |  9 | 10 | 11
+  ```
+  
 
 The way maze generation works is as follows:
 
