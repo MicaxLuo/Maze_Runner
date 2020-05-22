@@ -1,8 +1,3 @@
-// Course: 							DSA555 NSA
-// Assignment:      		1
-// Name: 								Xiaomin (Mica) Luo
-// Seneca Student ID:   133728170
-// Seneca email: 				xluo42@myseneca.ca
 
 #ifndef DISJOINTSET_H
 #define DISJOINTSET_H

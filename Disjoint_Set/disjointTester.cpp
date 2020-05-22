@@ -1,17 +1,12 @@
-// Course: 							DSA555 NSA
-// Assignment:      		1 - Part 1
-// Name: 								Xiaomin (Mica) Luo
-// Seneca Student ID:   133728170
-// Seneca email: 				xluo42@myseneca.ca
 
-/**************************************************************************/
-/*                                                                        */
-/*   A1 part1 tester file                                                 */
-/*                                                                        */
-/*   To compile: g++ disjointset.cpp a1q1tester.cpp timer.cpp -std=c++0x  */
-/*                                                                        */
-/*                                                                        */
-/**************************************************************************/
+/******************************************************************************/
+/*                                                                            */
+/*   tester file                                                              */
+/*                                                                            */
+/*   To compile: g++ disjointset.cpp disjointTester.cpp timer.cpp -std=c++0x  */
+/*                                                                            */
+/*                                                                            */
+/******************************************************************************/
 
 #include <string>
 #include <iostream>

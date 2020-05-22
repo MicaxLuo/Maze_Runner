@@ -1,20 +1,15 @@
-// Course: 				DSA555 NSA
-// Assignment:      	1 - Part 3
-// Name: 				Xiaomin (Mica) Luo
-// Seneca Student ID:   133728170
-// Seneca email: 		xluo42@myseneca.ca
 
-/************************************************************************************/
-/*                                                                                  */
-/*   A1 part3 tester file                                                           */
-/*                                                                                  */
-/*   To compile: g++ a1q3.cpp a1q3tester.cpp maze.cpp timer.cpp -std=c++0x          */
-/*                                                                                  */
-/*                                                                                  */
-/*   You will also need the files maze1.txt, maze2.txt, maze3.txt                   */
-/*                                                                                  */
-/*                                                                                  */
-/************************************************************************************/
+/*******************************************************************************************/
+/*                                                                                         */
+/*   tester file                                                                           */
+/*                                                                                         */
+/*   To compile: g++ mazeRunner.cpp mazeRTester.cpp maze.cpp timer.cpp -std=c++0x          */
+/*                                                                                         */
+/*                                                                                         */
+/*   You will also need the files maze1.txt, maze2.txt, maze3.txt                          */
+/*                                                                                         */
+/*                                                                                         */
+/*******************************************************************************************/
 #include "wall.h"
 #include "maze.h"
 #include "timer.h"

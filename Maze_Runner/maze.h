@@ -1,8 +1,3 @@
-// Course: 							DSA555 NSA
-// Assignment:      		1 - Part 3
-// Name: 								Xiaomin (Mica) Luo
-// Seneca Student ID:   133728170
-// Seneca email: 				xluo42@myseneca.ca
 
 #ifndef MAZE_H
 #define MAZE_H
