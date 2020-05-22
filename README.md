@@ -19,7 +19,7 @@ The disjoint set in an abstract data type which means that while the above 3 ope
 
 Disjoint sets can be useful for various algorithms. For example it can be used to find the connected components within a graph. Here is a graph with 3 different connected components.
 
-![](pic1.png)
+![image](pic1.png)
 
 to determine which vertices(the circles) are connected, we start by forming a disjoint set for every vertex:
 
@@ -72,7 +72,7 @@ Suppose you had the following disjoint set: { {0,2,5},{1},{3,4}}
 
 Our representation would create a structure similar to the following: **Note this diagram is just a very rough guide. You are allowed to change the exact nature of the list. The list can be singly linked or circular for example. You are also allowed to add extra information to each node in order to improve performance. You are even allowed to make the linked list without the "List" header object (ie just nodes linked together, use nullptrs to indicate front/back). You are allowed to add other members to the disjointSet class to help support your processing also. This diagram is only a very rough guide. **
 
-![](pic2.png)
+![image](./pic2.png)
 
 ### Member functions
 - bool makeSet(int object):
